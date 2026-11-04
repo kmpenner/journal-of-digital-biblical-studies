@@ -1,0 +1,9 @@
+/* Printing an article page gives a clean offprint. */
+@page { margin: 2cm 2.2cm; }
+header.site nav, footer.site, .button, .skip, .galleys, .versions, .sample-banner { display: none !important; }
+header.site { border-bottom: 1px solid #000; padding-top: 0; }
+body { background: #fff; color: #000; font-size: 11pt; }
+a { color: #000; text-decoration: none; }
+.abstract { background: none; border-block: 1px solid #000; }
+details { display: block; border: 0; } details > summary { list-style: none; font-weight: 700; }
+h1, h2, h3 { break-after: avoid; } p { orphans: 3; widows: 3; }

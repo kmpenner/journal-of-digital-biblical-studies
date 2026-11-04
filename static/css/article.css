@@ -1,0 +1,24 @@
+/* The article page: title block, abstract, full text, open review record, citation. */
+.article > .kicker, .article > h1, .article > .subtitle, .article > .authors { text-align: center; }
+.article > h1 { font-size: clamp(1.7rem, 4.5vw, 2.4rem); margin-bottom: 0.5rem; }
+.subtitle { font-style: italic; font-size: var(--step-1); color: var(--ink-soft); margin-top: 0; }
+.authors { font-variant: small-caps; letter-spacing: 0.05em; font-size: var(--step-1); }
+.authors code { font-variant: normal; letter-spacing: 0; font-size: 0.7em; color: var(--ink-soft); }
+
+.abstract { background: var(--surface); padding: 1rem 1.5rem 0.5rem; margin: 1.5rem 0 2.5rem; font-size: var(--step--1); line-height: 1.55; }
+.abstract h2 { font-size: var(--step-0); font-variant: small-caps; letter-spacing: 0.12em; text-align: center; margin: 0 0 0.5rem; }
+
+.fulltext h1 { font-size: var(--step-2); text-align: center; }
+.fulltext h2 { font-size: var(--step-1); font-variant: small-caps; letter-spacing: 0.05em; }
+.fulltext h3 { font-size: var(--step-0); }
+.fulltext > p + p { text-indent: 1.5em; margin-top: -1rem; }
+.fulltext .footnotes { font-size: var(--step--1); border-top: 1px solid var(--rule); margin-top: 3rem; }
+.fulltext .footnotes hr { display: none; }
+#refs, .references { font-size: var(--step--1); }
+#refs > div, .csl-entry { padding-inline-start: 2em; text-indent: -2em; margin-bottom: 0.5rem; }
+
+.review-record, .cite, .galleys, .versions { font-size: var(--step--1); }
+.review-record > h2, .cite > h2, .galleys > h2, .versions > h2 { font-size: var(--step-0); font-variant: small-caps; letter-spacing: 0.12em; border-top: 3px double var(--rule); padding-top: 1rem; margin-top: 3rem; }
+.review-record h3 { font-size: var(--step-0); }
+.letter { white-space: normal; }
+.cite .label { font-variant: small-caps; letter-spacing: 0.08em; color: var(--ink-soft); margin-inline-end: 0.5rem; }
