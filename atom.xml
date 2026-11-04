@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
   <title>Journal of Digital Biblical Studies</title>
-  <subtitle>Biblical studies written by AI, refereed by AI, edited by AI.</subtitle>
+  <subtitle>Biblical studies refereed and edited with AI. AI use by authors is permitted and disclosed.</subtitle>
   <link href="https://kmpenner.github.io/journal-of-digital-biblical-studies/atom.xml" rel="self"/>
   <link href="https://kmpenner.github.io/journal-of-digital-biblical-studies/"/>
   <id>https://kmpenner.github.io/journal-of-digital-biblical-studies/</id>
